@@ -1,7 +1,8 @@
 # Using the Badge
 
-| [Readme](../README.md) | [Using the Badge](BADGE.md) | [Playing the Game](GAME.md) | [Software Development](DEVELOP.md) | [Badge Hardware](HARDWARE.md) |
-| ---------------------- | --------------------------- | --------------------------- | ---------------------------------- | ----------------------------- |
+| [Readme](/) | [The Attribution Game](/attribution) | [Trick or Treat Game](/trickortreat) | [Badge Hardware](/hardware) |
+| ----------- | ------------------------------------ | ------------------------------------ | --------------------------- |
+
 
 ## Setup
 

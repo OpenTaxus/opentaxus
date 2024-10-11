@@ -45,7 +45,7 @@ def mkcpy(device):
     #config=ord(serial[-1])%50
     cmd="rm -rf "+mountpoint.name+"/*"
     subprocess.run(cmd,shell=True)
-    copytodevice(configs+str(variant), mountpoint.name+"data/")
+    copytodevice(configs+str(variant), mountpoint.name+"/data")
     copytodevice(software, mountpoint.name)
     umountpoint(mountpoint.name)
     print("CPY #"+sn+" config #",variant," took "+str(time.time()-start)+"s\n")

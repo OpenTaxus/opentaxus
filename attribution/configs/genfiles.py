@@ -118,10 +118,10 @@ gen_game_files(2,
 
 gen_game_files(3,
         {
-            "Name of your event or organization":["A mysterious group"],
-            "type of gathering":["disco rave","glamping trip","scuba live-aboard","picnic","festival",],
-            "Security Topic/Domain":["OWASP Top 10","CISSP domains","NIST CSF Functions","ISO 27035 - Incident Management",],
-            "SF-adjacent city":["Oakland","San Jose","Farralons","Alameda","Napa",],
+            "organization":["A mysterious group"],
+            "event":["disco rave","glamping trip","scuba live-aboard","picnic","festival",],
+            "topic":["OWASP Top 10","CISSP domains","NIST CSF Functions","ISO 27035 - Incident Management",],
+            "location":["Oakland","San Jose","Farralons","Alameda","Napa",],
             },
         "[organization] is starting a spinoff [event] focused on [topic] that will be based out of [location].",
     num_variants)
@@ -144,5 +144,5 @@ gen_game_files(5,
             "weapon":["Dagger", "Lead Pipe", "Revolver", "Rope", "Wrench"],
             "location":["Ballroom", "Billiard Room", "Conservatory", "Dining Room", "Hall", "Kitchen", "Lounge", "Study"],
             },
-        "It was [murderer] with the [weapon] in the [room]",
+        "It was [murderer] with the [weapon] in the [location]",
     num_variants)

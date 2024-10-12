@@ -13,8 +13,13 @@ working_dir = os.path.dirname(os.path.realpath(__file__))
 hash_method="SHA-256"
 
 #todo: clean this up, put pub.json into ../software
-f=open("pub.json", "w")
 public_obj = {"public_key_arguments": [public_key.n, public_key.e]}
+
+f=open("pub.json", "w")
+f.write(json.dumps(public_obj))
+f.close()
+
+f=open("../software/pub.json", "w")
 f.write(json.dumps(public_obj))
 f.close()
 

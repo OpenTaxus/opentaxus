@@ -39,11 +39,12 @@ kramdown:
 
 
 # theme: minima
-remote_theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-remote-theme
 
 sass:
   sass_dir: _sass

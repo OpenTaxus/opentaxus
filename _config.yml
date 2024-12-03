@@ -23,7 +23,7 @@ title: OpenTaxus
 description: >- # this means to ignore newlines until "baseurl:"
   Documentation site for OpenTaxus
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://opentaxus.github.io/opentaxus/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: opentaxus
 
@@ -49,7 +49,7 @@ sass:
   sass_dir: _sass
   style: compressed
 
-theme: just-the-docs
+# theme: just-the-docs
 remote_theme: just-the-docs/just-the-docs
 # Exclude from processing.
 # The following items will not be processed, by default.

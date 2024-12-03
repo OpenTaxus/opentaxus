@@ -12,7 +12,7 @@ source "https://rubygems.org"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", "~> 232", group: :jekyll_plugins
-gem "jekyll", "~> 3.10.0", group: jekyll_plugins
+gem "jekyll", "~> 3.10.0", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -40,6 +40,8 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.5"
-gem "just-the-docs"
+gem "just-the-docs", group: :just_the_docs
 
-gem "html-proofer"
+group :just_the_docs do
+  gem "html-proofer"
+end

@@ -1,0 +1,4 @@
+data/settings.json
+data/transactions.json
+data/*
+__pycache__

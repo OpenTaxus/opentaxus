@@ -45,7 +45,7 @@ except Exception as e:
     with open("pub.json", "w") as f:
         f.write(json.dumps(public_obj))
 
-    with open("../badge/pub.json", "w") as f:
+    with open("../firmware/pub.json", "w") as f:
         f.write(json.dumps(public_obj))
 
     with open("priv.json", "w") as f:
@@ -116,7 +116,7 @@ monitor.filter_by('block')
 circuitpy="adafruit-circuitpython-seeeduino_xiao_rp2040-en_US-9.1.4.uf2"
 rpi_nuke="flash_nuke.uf2"
 cpy_nuke="code.py"
-gamefiles="../badge/*"
+gamefiles="../firmware/*"
 
 # write the correct id.json file for this badge serial number to the indicated destination
 def registerserial(sn,dest):

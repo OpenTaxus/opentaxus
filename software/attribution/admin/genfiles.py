@@ -19,7 +19,7 @@ f=open("pub.json", "w")
 f.write(json.dumps(public_obj))
 f.close()
 
-f=open("../software/pub.json", "w")
+f=open("../firmware/pub.json", "w")
 f.write(json.dumps(public_obj))
 f.close()
 

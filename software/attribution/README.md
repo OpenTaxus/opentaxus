@@ -1,6 +1,6 @@
 # The Attribution Game 
 
-| [Readme](/) | [The Attribution Game](/attribution) | [Trick or Treat Game](/trickortreat) | [Badge Hardware](/hardware) |
+| [Readme](/) | [The Attribution Game](/software/attribution) | [Trick or Treat Game](/software/trickortreat) | [Badge Hardware](/hardware) |
 | ----------- | ------------------------------------ | ------------------------------------ | --------------------------- |
 
 ## Badge Game
@@ -24,7 +24,7 @@ You can check your collected cards by scrolling right from the "OpenTaxus" scree
 
 When you collect enough cards, the one remaining is the solution that completes the phrase. There are 6 games to play through - try them all!
 
-Please see [Using the Badge](/attribution/GAME.md) for more details about interacting with the badge and [Playing the Game](/attribution/GAME.md) for more details about gameplay.
+Please see [Using the Badge](/software/attribution/GAME.md) for more details about interacting with the badge and [Playing the Game](/software.attribution/GAME.md) for more details about gameplay.
 
 ## Repo Contents
 
@@ -41,7 +41,7 @@ The badge software is a fork of the Labscon badge software, further mangled by @
 
 OpenTaxus is intended to be be a drop-in electronic badge that works from the start. While you can use the badge as it's presented here if you plan to use it for an event or organization, you may want to customize the appearance of the badge, and possibly some of the text and programming. 
 
-Please see [Developer Instrucitons](/attribution/DEVELOP.md) for more details
+Please see [Developer Instrucitons](/software/attribution/DEVELOP.md) for more details
 
 ### Suggested customizations:
 	
@@ -51,10 +51,10 @@ Please see [Developer Instrucitons](/attribution/DEVELOP.md) for more details
 * Include the repo for your code or events in the silkscreen on the back of the badge.
 
 #### Electronic text:
-* There are a number of custom strings that can be adjusted within the [genfiles.py](./configs/genfiles.py) file. In particular, you may want to change line 121 to say the name of your event or organization instead of "A mysterious group".
+* There are a number of custom strings that can be adjusted within the [genfiles.py](./software/attribution/configs/genfiles.py) file. In particular, you may want to change line 121 to say the name of your event or organization instead of "A mysterious group".
 * The same file also includes other bits of flavor text that could be customized to match your event's theme or location.
 * Changing the menu text of the badge to show your event name instead of "OpenTaxus" can be done on lines 23 and 139 of [home.py](./software/home.py)
-* Sponsor names can be added within [home.py](./software/home.py) around line 144.
+* Sponsor names can be added within [home.py](./software/attribution/software/home.py) around line 144.
 
 #### Misc:
 * You may also want to change the file that you're reading now ([README.md](README.md)) to welcome your attendee's, ctf players, etc.

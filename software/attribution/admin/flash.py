@@ -12,8 +12,8 @@ context = pyudev.Context()
 monitor = pyudev.Monitor.from_netlink(context)
 monitor.filter_by('block')
 circuitpy="adafruit-circuitpython-seeeduino_xiao_rp2040-en_US-9.0.4.uf2"
-software="../software/*"
-configs="../configs/data/"
+software="../firmware/*"
+configs="../admin/data/"
 variants=50
 
 # Make sure sudo is configured to not prompt for a password for your user.
